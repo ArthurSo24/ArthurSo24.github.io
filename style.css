@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(177, 233, 255);
+    color: rgb(184, 120, 90);
+}
+
+header {
+    background-color: rgb(123, 93, 255);
+    color: #fff;
+    padding: 24px;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 24px;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    font-weight: bolder;
+    color: #fff;
+    outline: auto;
+    background-color: rgb(192, 237, 255);
+    border-radius: 28px;
+}
+
+.card {
+    background-color: rgb(246, 254, 255);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card h2 {
+    margin: 0 0 8px;
+}
+
+.valor {
+    font-weight: bold;
+    color: blue;
+}
+
+.destaque {
+    background-color: rgb(253, 255, 145);
+}
+
+.card.destaque h2 {
+    color: rgb(255, 98, 98);
+}
+
+#topo {
+    background-color: rgb(180, 164, 255);
+}
+
+#contato {
+    background-color: rgb(192, 237, 255);
+}
+
+.selecionado {
+    border-color: black;
+}
+#limpar {
+    padding: 8px 20px;
+    border: 6 px solid rgb(123, 93, 255);
+    background-color: rgb(180, 164, 255);
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+#resumo {
+    color: red;
+    font-weight: bold;
+}
+
+.aviso {
+    color: green;
+}
